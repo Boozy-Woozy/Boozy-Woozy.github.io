@@ -1,0 +1,421 @@
+@import url('https://fonts.googleapis.com/css?family=Kavivanar');
+html, body {
+	padding: 0;
+	margin: 0;
+	color: white;
+}
+.top-line {
+	background: #ececec;
+	min-height: 10px;
+	height: 100%;
+}
+.active-link {
+	margin-top: -4.5px;
+	margin-left: 49.5%;
+}
+.logo {
+	float: left;
+	margin-left: 19%;
+	margin-top: 1%;
+}
+
+ /*-------menu--------*/
+
+.main-menu li {
+    display: inline-block;
+    margin-left: 20%;    
+}
+.main-menu span {
+	font-family: 'Kavivanar', cursive;
+	color: gray;
+	font-size: 12px;
+	font-weight: 300;
+}
+.main-menu span:nth-child(2) {
+	color: #474747;
+	font-size: 18px;
+	font-weight: bold;
+} 
+.main-menu li:nth-child(2) {
+	margin-left: 3%;
+}
+.main-menu li:nth-child(3) {
+	margin-left: 3%;
+}
+.main-menu li:nth-child(4) {
+	margin-left: 3%;
+}
+.main-menu li:nth-child(5) {
+	margin-left: 3%;
+}
+
+/*----------sidebar-------*/
+
+.sidebar {
+	width: 66%;
+	height: 425px;
+	float: left;
+	margin-left: 19%;
+	background-image: url(images/img.png);
+}
+.wrapper {
+	background: #404040;
+	height: 70px;
+	width: 220px;
+	margin-top: 355px;
+	float: left;
+}
+.wrapper span:nth-child(1) {
+	font-family: 'Kavivanar', cursive;
+	display: block;
+	margin-left: 15px;
+	margin-top: 21px;
+	font-size: 15px;
+	color: #8f8a8a;
+	font-weight: bold;
+	line-height: 0.5;
+}
+.wrapper span:nth-child(2) {
+	font-family: 'Kavivanar', cursive;
+	display: block;
+	margin-left: 15px;
+	font-size: 24px;
+	color: white;
+	font-weight: bold;
+}
+.sidebar img:nth-child(1) {
+	float: left;
+	margin-top: 415px;
+	margin-left: 255px;
+}
+.sidebar img:nth-child(2) {
+	float: left;
+	margin-top: 410px;
+	margin-left: 275px;
+}
+.sidebar img:nth-child(3) {
+	float: left;
+	margin-top: 410px;
+	margin-left: 5px;
+}
+.sidebar img:nth-child(4) {
+	float: left;
+	margin-top: 410px;
+	margin-left: 5px;
+}
+.sidebar img:nth-child(5) {
+	float: left;
+	margin-top: 410px;
+	margin-left: 5px;
+}
+
+/*--------DES----------*/
+
+.des {
+	width: 66%;
+	height: 85px;
+	float: left;
+	margin-left: 19%;
+	background: #f5f5f5;
+}
+.des span:nth-child(1) {
+	display: block;
+	margin-top: 12px;
+	margin-left: 15px;
+	color: #464646;
+	font-size: 13.px;
+	font-family: 'Kavivanar', cursive;
+}
+.des span:nth-child(2) {
+	display: block;
+	margin-top: 12px;
+	margin-left: 15px;
+	color: #464646;
+	font-size: 13.5px;
+	font-family: 'Kavivanar', cursive;
+}
+.des span:nth-child(3) {
+	display: block;
+	margin-left: 15px;
+	color: #464646;
+	font-size: 13.5px;
+	font-family: 'Kavivanar', cursive;
+}
+
+/*------Featured Section---------*/
+
+.Current-Projects {
+	float: left;
+	clear: left;
+	width: 290px;
+	height: 300px;
+	margin-left: 19%;
+	margin-top: 54px;
+}
+.Current-Projects .img {
+	float: left;
+}
+.Current-Projects .text {
+	margin-left: 8%;
+	color: #464646;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: 'Kavivanar', cursive;
+	float: left;
+}
+.Current-Projects .text2 {
+	margin-top: 10px;
+	color: #474747;
+	font-family: 'Kavivanar', cursive;
+	font-size: 13px;
+}
+.Current-Projects .img2 {
+	float: left;
+	margin-top: 21.5px;
+}
+.Current-Projects .text3 {
+	color: #464646;
+	font-weight: bold;
+	margin-top: 20px;
+	margin-left: 3%;
+	float: left;
+	font-family: 'Kavivanar', cursive;
+}
+
+/*-------------*/
+
+.star-5 {
+	float: left;
+	width: 290px;
+	height: 300px;
+	margin-left: 2%;
+	margin-top: 54px;
+}
+.star-5 .img {
+	float: left;
+}
+.star-5 .text {
+	margin-left: 8%;
+	color: #464646;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: 'Kavivanar', cursive;
+	float: left;
+}
+.star-5 .text2 {
+	margin-top: 10px;
+	color: #474747;
+	font-family: 'Kavivanar', cursive;
+	font-size: 13px;
+}
+.star-5 .img2 {
+	float: left;
+	margin-top: 21.5px;
+}
+.star-5 .text3 {
+	color: #464646;
+	font-weight: bold;
+	margin-top: 20px;
+	margin-left: 3%;
+	float: left;
+	font-family: 'Kavivanar', cursive;
+}
+
+/*-------------*/
+
+.Blog {
+	float: left;
+	width: 290px;
+	height: 300px;
+	margin-left: 2%;
+	margin-top: 54px;
+}
+.Blog .img {
+	float: left;
+}
+.Blog .text {
+	margin-left: 8%;
+	color: #464646;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: 'Kavivanar', cursive;
+	float: left;
+}
+.Blog .text2 {
+	margin-top: 10px;
+	color: #474747;
+	font-family: 'Kavivanar', cursive;
+	font-size: 13px;
+}
+.Blog .img2 {
+	float: left;
+	margin-top: 21.5px;
+}
+.Blog .text3 {
+	color: #464646;
+	font-weight: bold;
+	margin-top: 20px;
+	margin-left: 3%;
+	float: left;
+	font-family: 'Kavivanar', cursive;
+}
+
+/*-----------My latest work-------------*/
+
+.title {
+	margin-left: 18%;
+	background-image: url(images/Header-Background.png);
+	width: 68%;
+	height: 30px;
+	float: left;
+}
+.title .text {
+	color: #464646;
+	font-size: 20px;
+	font-family: 'Kavivanar', cursive;
+	font-weight: bold;
+	margin-left: 42%;
+	width: 210px;
+	background: white;
+}
+.title .text span {
+	margin-left: 13.5%;
+}
+
+/*------project-1--------*/
+
+.project-1 {
+	margin-left: 18%;
+	margin-top: 70px;
+	font-family: 'Kavivanar', cursive;
+	color: #464646;
+	float: left;
+}
+.project-1 .text-1 {
+	margin-top: 12px;
+	font-weight: bold;
+}
+.project-1 .text-2 {
+	margin-top: 12px;
+	font-size: 13px;
+}
+.project-1 .text-3 {
+	margin-top: 12px;
+	margin-left: 12%;
+	font-weight: bold;
+}
+.project-1 .img2 {
+	float: left;
+	margin-top: 11px; 
+}
+
+/*-----------progect-2-----------*/
+
+.project-2 {
+	margin-top: 70px;
+	font-family: 'Kavivanar', cursive;
+	color: #464646;
+	margin-left: 1%;
+	float: left;
+}
+.project-2 .text-1 {
+	margin-top: 12px;
+	font-weight: bold;
+}
+.project-2 .text-2 {
+	margin-top: 12px;
+	font-size: 13px;
+}
+.project-2 .text-3 {
+	margin-top: 12px;
+	margin-left: 12%;
+	font-weight: bold;
+}
+.project-2 .img2 {
+	float: left;
+	margin-top: 11px; 
+}
+
+/*------project-3-----*/
+
+.project-3 {
+	margin-top: 70px;
+	font-family: 'Kavivanar', cursive;
+	color: #464646;
+	margin-left: 1%;
+	float: left;
+}
+.project-3 .text-1 {
+	margin-top: 12px;
+	font-weight: bold;
+}
+.project-3 .text-2 {
+	margin-top: 12px;
+	font-size: 13px;
+}
+.project-3 .text-3 {
+	margin-top: 12px;
+	margin-left: 12%;
+	font-weight: bold;
+}
+.project-3 .img2 {
+	float: left;
+	margin-top: 11px; 
+}
+
+/*---------project-4------*/
+
+.project-4 {
+	margin-top: 70px;
+	font-family: 'Kavivanar', cursive;
+	color: #464646;
+	margin-left: 1%;
+	float: left;
+}
+.project-4 .text-1 {
+	margin-top: 12px;
+	font-weight: bold;
+}
+.project-4 .text-2 {
+	margin-top: 12px;
+	font-size: 13px;
+}
+.project-4 .text-3 {
+	margin-top: 12px;
+	margin-left: 5%;
+	font-weight: bold;
+}
+.project-4 .img2 {
+	float: left;
+	margin-top: 11px; 
+}
+
+/*------Footer---------*/
+
+.background {
+	background-image: url(images/Header-Background.png);
+	width: 100%;
+	height: 10px;
+	float: left;
+	margin-top: 12%;
+}
+.footer {
+	background: #f4f4f4;
+	width: 100%;
+	height: 100px;
+	float: left;
+}
+.footer span {
+	display: block;
+	color: #464646;
+	font-family: 'Kavivanar', cursive;
+	font-size: 14px;
+	float: left;
+	margin-top: 2.5%; 
+}
+.footer span:nth-child(1) {
+	margin-left: 18%;
+}
+.footer span:nth-child(2) {
+	margin-left: 30%;
+}
